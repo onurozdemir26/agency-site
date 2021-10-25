@@ -2,8 +2,8 @@ import React from "react";
 import './App.css'
 import './style.css'
 import './output.css'
-import Header from './Components/UI/Header/index'
-import Deneme from './Components/UI/deneme/index'
+import Header from './Components/Pages/Home/index'
+import Deneme from './Components/Pages/SecondPage/index'
 
 
 function App() {
