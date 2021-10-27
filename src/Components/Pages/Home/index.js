@@ -11,7 +11,7 @@ function index() {
                 <header className="flex flex-row relative py-4" >
                     <div className="container mx-auto justify-between flex">
                         <div className="">
-                            <img src={Logo} alt="" />
+                            <img src={Logo} alt="" className="img-fluid" />
                         </div>
                         <Navbar />
                         <div>
@@ -41,7 +41,7 @@ function index() {
                     </div>
                 </div>
                 <div className="w-6/12">
-                    <img src={homeImage} alt="" className=""/>
+                    <img src={homeImage} alt="" className="img-fluid" />
                 </div>
             </main>
         </div>
