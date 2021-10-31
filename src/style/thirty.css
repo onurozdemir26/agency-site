@@ -1,0 +1,7 @@
+.page{
+    background-image: url("../img/thirtyPageImg.svg");
+    -moz-background-size: 100% 100%;           
+	-o-background-size: 100% 100%;           
+	-webkit-background-size: 100% 100%;          
+	background-size: cover;  
+}

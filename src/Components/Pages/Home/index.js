@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../../../img/logo.svg'
 import Navbar from '../../UI/Navbar/index'
-import '../../../style/header.css'
+import '../../../style/home.css'
 import homeImage from '../../../img/homeImage.svg'
 
 function index() {

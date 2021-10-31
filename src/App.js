@@ -2,15 +2,18 @@ import React from "react";
 import './App.css'
 import './style.css'
 import './output.css'
-import Header from './Components/Pages/Home/index'
-import Deneme from './Components/Pages/SecondPage/index'
-
+import HomePage from './Components/Pages/Home/index'
+import SecondPage from './Components/Pages/SecondPage/index'
+import ThirtyPage from './Components/Pages/ThirtyPage/index'
+import Footer from './Components/UI/Footer/index'
 
 function App() {
   return (
     <div className="app flex flex-col">
-      <Header />
-      <Deneme /> 
+      <HomePage />
+      <SecondPage /> 
+      <ThirtyPage />
+      <Footer />
     </div>
 
   );
